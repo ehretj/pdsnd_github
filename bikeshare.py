@@ -26,7 +26,7 @@ def get_filters():
             print('\nPlease Choose from the list of Cities !\n')
      # get user input for month (all, january, february, ... , june)
     while True:
-        month=input("\nWhich month - January, February, March, April, May, June or all?\n")
+        month=input("\nWhich month from January to June?\n")
         month=month.lower()
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
             print('\nYou Chose {}.'.format(str.capitalize(month)))
