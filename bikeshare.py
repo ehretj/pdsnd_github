@@ -32,10 +32,10 @@ def get_filters():
             print('\nYou Chose {}.'.format(str.capitalize(month)))
             break
         else:
-            print('\nChoose from January, February, March, April, May, June or all')
+            print('\nChoose from January, February, March, April, May, June or all?')
       # get user input for day of week (all, monday, tuesday, ... sunday)      
     while True:
-        day=input("\nWhich day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all?\n")
+        day=input("\nWhich day of the week?\n")
         day=day.lower()
         if day in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all'):
             print("\nYou Chose {}.".format(str.capitalize(day)))
